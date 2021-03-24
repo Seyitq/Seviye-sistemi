@@ -1,7 +1,7 @@
 # Seviye-sistemi
 
 
-Bu seviye sistemi Canvacord kullanılarak yapılmıştır. Star vermeyi unutmayın
+Bu seviye sistemi Canvacord kullanılarak yapılmıştır. Star vermeyi unutmayın.
 
 gerekli modüller
 
@@ -11,6 +11,6 @@ gerekli modüller
 
 **discord.js**
 
-Cooldownlıdır yani spam yapsanız bile normal xp alırsınız
+Cooldownlıdır yani spam yapsanız bile normal xp alırsınız.
 
-Eğer star sayısı belli bir sayıyı geçerse canvaslısı gelcek ve daha gelişmiştir
+Eğer star sayısı belli bir sayıyı geçerse canvaslısı gelcek ve daha gelişmiştir.
