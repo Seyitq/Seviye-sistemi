@@ -5,7 +5,7 @@ module.exports.run = async (client, message, args) => {
   let user = message.mentions.users.first() || client.users.cache.get(args[0]) || message.author;
 
   let seyit = client.db.get(`level_${user.id}`) || 0;
-  let hyperion = client.db.get(`xp_${user.id}`) || 0;
+  let hyperion = client.db.get(`exp_${user.id}`) || 0;
   let asunack = Math.floor(Math.pow(asunack / 0.1, 2));
 
   let herkes = client.db.all().filter(i => i.ID.startsWith("xp_")).sort((a, b) => b.data - a.data);
