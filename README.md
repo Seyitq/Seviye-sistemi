@@ -5,10 +5,10 @@ Bu seviye sistemi Canvacord kullanılarak yapılmıştır. Star vermeyi unutmay�
 
 gerekli modüller
 
-**quick.db
+**quick.db**
 
-**canvacord
+**canvacord**
 
-**discord.js
+**discord.js**
 
 
