@@ -27,6 +27,18 @@ module.exports.run = async (client, message, args) => {
   return message.channel.send(new MessageAttachment(img, "rank.png"));
 };
 
+exports.conf = {
+
+    enabled: true,
+
+    guildOnly: false,
+
+    aliases: ['seviyee'],
+
+    permLevel: 0
+
+}
+
 module.exports.help = {
   name: "rank"
 };
