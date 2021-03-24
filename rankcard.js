@@ -8,8 +8,8 @@ module.exports.run = async (client, message, args) => {
   let hyperion = client.db.get(`exp_${user.id}`) || 0;
   let asunack = Math.floor(Math.pow(asunack / 0.1, 2));
 
-  let herkes = client.db.all().filter(i => i.ID.startsWith("xp_")).sort((a, b) => b.data - a.data);
-  let seviye = herkes.map(x => x.ID).indexOf(`xp_${user.id}`) + 1;
+  let herkes = client.db.all().filter(i => i.ID.startsWith("exp_")).sort((a, b) => b.data - a.data);
+  let seviye = herkes.map(x => x.ID).indexOf(`exp_${user.id}`) + 1;
 
 
   const card = new canvacord.Rank()          //burdan sonrasını canvacordun docsuna bakarak güzelleştirebilirsiniz.
