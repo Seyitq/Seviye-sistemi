@@ -11,7 +11,7 @@ exports.run = async(client, message, args) => {
   
   
   
-  let kanal = await db.fetch(`svlog_${message.guild.id
+  let kanal = await db.fetch(`svlog_${message.guild.id}`)
   
   
   let kontrol;
