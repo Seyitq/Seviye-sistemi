@@ -12,6 +12,13 @@ module.exports.run = async (client, message, args) => {
   let seviye = herkes.map(x => x.ID).indexOf(`exp_${user.id}`) + 1;
 
 
+   let log = await db.fetch(`svlog_${message.guild.id}`)
+  
+if(!log) return message.channel.send('Seviye log kanalı tanımlanmamış!\n Bunu mu arıyorsun? `!seviye-log #log-kanalı`')
+   
+  let dogumabati = db.fetch(`seviyeacik_${message.guild.id}`)
+  if(!dogumabati) return message.channel.send('Seviye sistemi açılmamış!\n Bunu mu arıyorsun? `!seviye-aç`')
+  
   const card = new canvacord.Rank()          //burdan sonrasını canvacordun docsuna bakarak güzelleştirebilirsiniz.
     .setUsername(user.username)
     .setDiscriminator(user.discriminator)
