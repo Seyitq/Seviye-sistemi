@@ -14,7 +14,8 @@ function exp(message) {
         let lvl = client.db.get(`level_${message.author.id}`) || client.db.set(`level_${message.author.id}`,1);;
         if (level > lvl) {
             let newLevel = client.db.set(`level_${message.author.id}`,level);
-            message.channel.send(`:tada: ${message.author.toString()}, Level atladın yeni levelin ${newLevel}!`);
+             let kanal = await client.db.fetch(`svlog_${message.guild.id}`)
+            kanal.send(`:tada: ${message.author.toString()}, Level atladın yeni levelin ${newLevel}!`);
         }
         client.cooldown.set(`${message.author.id}`, Date.now());
     }
