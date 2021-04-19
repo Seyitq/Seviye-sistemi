@@ -3,14 +3,14 @@
 
 Bu seviye sistemi Canvacord kullanılarak yapılmıştır. Star vermeyi unutmayın.
 
-gerekli modüller
+**Gerekli modüller:**
 
-**quick.db**
+```quick.db```
 
-**canvacord**
+```canvacord```
 
-**discord.js**
+```discord.js```
 
-Cooldownlıdır yani spam yapsanız bile normal xp alırsınız.
+Sistemin antispam özelliği vardır yani spam yapsanız bile belli süre aralığında xp verir.
 
-Eğer star sayısı belli bir sayıyı geçerse canvaslısı gelcek ve daha gelişmiştir.
+Eğer Star sayısı belli bir sayıyı geçerse Canvaslı seviye sistemini paylaşacağım.
