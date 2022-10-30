@@ -15,7 +15,7 @@ exports.run = async(client, message, args) => {
   
   
   let kontrol;
-  if(kanal == null) kontrol = 'Sunucuda Ayarlanmış Bir Logs Bulunamadı!'
+  if(kanal === null) kontrol = 'Sunucuda Ayarlanmış Bir Logs Bulunamadı!'
   else kontrol = kanal
   
   
